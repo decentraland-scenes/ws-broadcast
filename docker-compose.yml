@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  ws-broadcast:
+    ports:
+      - "127.0.0.1:13370:13370"
+    build:
+      context: .
+    restart: always
