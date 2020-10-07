@@ -1,6 +1,6 @@
 import * as WebSocket from "ws";
 
-const wss = new WebSocket.Server({ port: 13370 });
+const wss = new WebSocket.Server({ port: 8080 });
 
 interface customWs extends WebSocket {
   room: string;
