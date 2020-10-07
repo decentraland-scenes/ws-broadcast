@@ -22,5 +22,5 @@ wss.on("connection", (clientWs, request) => {
 });
 
 wss.once("listening", ()=>{
-  console.log("Listening on port 13370")
+  console.log("Listening on port 8080")
 })
